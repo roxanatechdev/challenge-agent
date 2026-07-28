@@ -15,14 +15,14 @@ El agente utiliza **Inteligencia Artificial Generativa** combinada con **Recuper
 - 📱 Proveer una interfaz web amigable con Streamlit.
 
 ## 🖥️ Vista Previa de la Interfaz
-<img src="captura-interfaz.png" width="500" alt="Interfaz">
+<img src="assets/01_interfaz_principal.png" width="350" alt="Interfaz">
 ---
 
 ## 🏗️ Arquitectura de la Solución
 
 ### Diagrama de flujo
 
-<img src="diagrama.png" width="500" alt="Diagrama de Arquitectura">
+<img src="assets/diagrama_arquitectura.png" width="300" alt="Diagrama de Arquitectura">
   
 ### Componentes principales
 
@@ -120,63 +120,39 @@ La aplicación se abrirá automáticamente en tu navegador en http://localhost:8
 
 ---
 
-## 🤖 Ejemplos de Respuestas Generadas por el Agente
+## 💬 Ejemplos de Uso y Respuestas del Agente
 
-### Ejemplo 1: Pregunta sobre turnos
+### 📸 Demostración Visual
 
-**Pregunta del usuario:**
+A continuación, ejemplos reales de interacciones con el asistente:
 
-> "¿Con cuánta anticipación debo pedir turno para cardiología?"
+#### 1️⃣ Interfaz y Acciones Rápidas
 
-**Respuesta del agente:**
+<img src="assets/interfaz-app-respuestas-rapidas.png" width="450" style="border: 1px solid #d0d7de; border-radius: 8px; padding: 10px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);"/>
 
-> Para especialidades como cardiología, se recomienda agendar con **1 a 2 semanas de anticipación**, ya que la disponibilidad suele ser menor que en medicina general.
-> 
-> Puedes solicitar tu turno a través de nuestro portal web, WhatsApp oficial (+54 9 11 1234-5678) o llamando a la central telefónica (011) 4567-8900.
+#### 2️⃣ Consulta sobre Requisitos de Atención
 
----
+**Pregunta:** "¿Qué documentos debo llevar si me atiende por convenio?"
 
-### Ejemplo 2: Pregunta sobre requisitos
+<img src="assets/02_requisitos_convenio.png" width="450" style="border: 1px solid #d0d7de; border-radius: 8px; padding: 10px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);"/>
 
-**Pregunta del usuario:**
+#### 3️⃣ Consulta sobre Copagos
 
-> "¿Qué documentos debo llevar si me atiende por Swiss Medical?"
+**Pregunta:** "¿Cuánto cuesta la consulta con un especialista?"
 
-**Respuesta del agente:**
+<img src="assets/03_copago_especialista.png" width="450" style="border: 1px solid #d0d7de; border-radius: 8px; padding: 10px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);"/>
 
-> 📋 **Requisitos para atención por convenio:**
-> 
-> 1. DNI o pasaporte vigente.
-> 2. Credencial digital o física de Swiss Medical (con el plan visible).
-> 3. Orden médica autorizada (solo si la especialidad o estudio lo requiere previamente).
-> 
-> Sin estos documentos no podremos brindarte la atención bajo cobertura.
+#### 4️⃣ Consulta sobre Política de Turnos
 
----
+**Pregunta:** "¿Con cuánta anticipación debo pedir turno para cardiología?"
 
-### Ejemplo 3: Pregunta sobre copagos
+<img src="assets/04_turnos_cardiologia.png" width="450" style="border: 1px solid #d0d7de; border-radius: 8px; padding: 10px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);"/>
 
-**Pregunta del usuario:**
+#### 5️ Pregunta Libre (Chat)
 
-> "¿Cuánto sale la consulta con un neurólogo?"
+**Pregunta:** "¿Atienden por Swiss Medical?"
 
-**Respuesta del agente:**
-
-> 💰 **Copago referencial para consulta de especialidad:** El valor estimado es entre **$4.000 y $8.000 ARS**, dependiendo del plan de tu obra social o medicina prepaga.
-> 
-> ⚠️ Este valor es orientativo. El copago exacto se confirma al momento de la admisión según tu plan específico.
-
----
-
-### Ejemplo 4: Pregunta fuera del alcance
-
-**Pregunta del usuario:**
-
-> "¿Tienen estacionamiento propio?"
-
-**Respuesta del agente:**
-
-> No tengo esa información específica en mi base de datos. Te sugiero contactar a recepción al **(011) 4567-8900** o por WhatsApp al **+54 9 11 1234-5678** para confirmar este detalle. ¡Con gusto te atenderán!
+<img src="assets/05_swiss_medical.png" width="450" style="border: 1px solid #d0d7de; border-radius: 8px; padding: 10px; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);"/>
 
 ---
 
