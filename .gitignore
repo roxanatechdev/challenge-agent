@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Variables de entorno (¡NUNCA subas tu API KEY!)
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caché de Streamlit
+.streamlit/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Caché de modelos (opcional, pero recomendado para no subir GBs de datos)
+# fastembed guarda esto en ~/.cache/fastembed por defecto, pero por si acaso:
+.cache/
