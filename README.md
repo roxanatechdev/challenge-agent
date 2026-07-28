@@ -14,6 +14,8 @@ El agente utiliza **Inteligencia Artificial Generativa** combinada con **Recuper
 - 🔒 Minimizar alucinaciones mediante RAG con FAISS y prompts estrictos.
 - 📱 Proveer una interfaz web amigable con Streamlit.
 
+## 🖥️ Vista Previa de la Interfaz
+<img src="captura-interfaz.png" width="500" alt="Interfaz">
 ---
 
 ## 🏗️ Arquitectura de la Solución
