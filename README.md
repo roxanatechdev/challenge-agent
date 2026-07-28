@@ -1,5 +1,9 @@
 # 🏥 Asistente Virtual Inteligente - Clínica de Salud
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://challenge-agent-roxanatech.streamlit.app)
+
+> 🚀 **[Haz clic aquí para probar la Demo en Vivo](https://challenge-agent-roxanatech.streamlit.app)**
+
 ## 📋 Descripción General
 
 Este proyecto implementa un **asistente virtual inteligente** para una clínica de salud, diseñado para responder de forma automática, precisa y amable las consultas más frecuentes de los pacientes.
@@ -89,6 +93,9 @@ GROQ_API_KEY=tu_clave_groq_aqui
 streamlit run app.py
 ```
 La aplicación se abrirá automáticamente en tu navegador en http://localhost:8501.
+
+> 💡 **¿No quieres instalar nada?** 
+> Puedes probar el asistente en vivo ahora mismo: [🔗 Demo en Streamlit Cloud](https://challenge-agent-roxanatech.streamlit.app)
 
 ## 💬 Ejemplos de Preguntas que el Agente Puede Responder
 
