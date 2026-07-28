@@ -5,7 +5,7 @@ from langchain.tools import tool
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import FastEmbedEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_community.document_loaders import PyPDFLoader
@@ -20,18 +20,14 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 # LLM optimizado para respuestas cortas (temperature bajo = menos alucinaciones)
 llm = ChatGroq(
     api_key=GROQ_API_KEY,
-    model_name="llama-3.3-70b-versatile",
+    model_name="llama-3.1-8b-instant",
     temperature=0,
     max_tokens=300,  # Limita la respuesta para ahorrar tokens
 )
 
 
-# Embeddings usando la API gratuita de HuggingFace (no requiere PyTorch local)
-
-embeddings = HuggingFaceEmbeddings(
-    model_name="all-MiniLM-L6-v2",  # Modelo más ligero, funciona sin torchvision
-    model_kwargs={"device": "cpu"},
-)
+# Embeddings locales ultraligeros, multilingües y 100% soportados por fastembed
+embeddings = FastEmbedEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 # ============================================================
 # 2. CARGA Y VECTORIZACIÓN DE DOCUMENTOS (FAISS)
