@@ -26,7 +26,7 @@ El agente utiliza **Inteligencia Artificial Generativa** combinada con **Recuper
 
 ### Diagrama de flujo
 
-<img src="assets/diagrama_arquitectura.png" width="300" alt="Diagrama de Arquitectura">
+<img src="assets/diagrama_arquitectura.png" width="400" alt="Diagrama de Arquitectura">
   
 ### Componentes principales
 
